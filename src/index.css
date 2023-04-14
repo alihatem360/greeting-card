@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Amatic SC", cursive;
+    font-family: "El Messiri", sans-serif;
+    font-family: "Finlandica", sans-serif;
+    font-family: "Kufam", sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+  }
+}
