@@ -5,13 +5,11 @@ import imageEid3 from "../assets/eid (2).png";
 import imageEid4 from "../assets/eid (3).png";
 import html2canvas from "html2canvas";
 import BackCountainer from "./BackCountainer";
-function Home() {
+function Home({ handlePartyModeClick }) {
   const [name, setName] = React.useState("اسمك");
   const [message, setMessage] = React.useState("");
   const [background, setBackground] = React.useState("bg-gradient-135");
-  useEffect(() => {
-    console.log(background, "background");
-  }, [background]);
+
   const handleNameChange = (e) => {
     setName(e.target.value);
   };
@@ -29,6 +27,8 @@ function Home() {
       link.href = canvas.toDataURL("image/png");
       link.click();
     });
+
+    handlePartyModeClick();
   };
 
   return (
