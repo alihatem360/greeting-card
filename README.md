@@ -1,4 +1,4 @@
-# 🎉 Eid Filter Greeting Card Generator 💌
+# 🎉 Eid Greeting Card Generator 💌
 
 ![Eid Filter Greeting Card Generator](./src/assets/screencapture-127-0-0-1-5174-2023-04-14-22_51_29.png)
 
